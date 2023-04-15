@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+    background-color: #f7f7f7;
+    background-image: url(imagem/0005018301020741_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: transparent;
+    background-size: cover;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: orange;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: yellow;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+p {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: yellow;
+}
+
+button {
+    background-color: crimson;
+    color: yellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 20px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: tomato;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
